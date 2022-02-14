@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>music player</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css" id="theme">
+        <link rel="stylesheet" href="chat.css">
+    </head>
+    
+<body>
+            <!-- MAKE THIS LOOP INFINITE -->
+    <img src='images/loopedbg.gif' id='selector'/>
+
+    <div class="full-chat-block">
+        <!-- Message Container -->
+        <div class="outer-container">
+            <div class="chat-container">
+                <!-- Messages -->
+                <div id="chatbox">
+                    <h5 id="chat-timestamp"></h5>
+                    <p id="botStarterMessage" class="botText"><span>Hi Dyban hehe! Pretend I’m the bot so here’s a list of questions you can ask me!<br>&#127800 Why am I the best bf?<br>&#127800 What makes me soo amazing?<br>&#127800 What’s your favourite memory of us?<br>&#127800 What do you look forward to in the future?<br>&#127800 When did you start falling in love with me?<br>
+                    </span></p>
+                </div>
+
+                <!-- User input box -->
+                <div class="chat-bar-input-block">
+                    <div id="userInput">
+                        <input id="textInput" class="input-box" type="text" name="msg"
+                            placeholder="Tap 'Enter' to send a message">
+                        <p></p>
+                    </div>
+
+                    <div class="chat-bar-icons">
+                        <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                            onclick="heartButton()"></i>
+                        <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                            onclick="sendButton()"></i>
+                    </div>
+                </div>
+
+                <div id="chat-bar-bottom">
+                    <p></p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+<div class="scroll">
+    <div class ="vertical-menu">
+        <img src="images/dylbg.gif" class = "scrollheader">
+        <img src ="images/Frame 1.png" class = "testing">
+        <img src ="images/Frame 2.png" class = "testing">
+        <img src ="images/Frame 3.png" class = "testing">
+        <img src ="images/Frame 5.png" class = "testing">
+        <img src ="images/Frame 6.png" class = "testing">
+        <img src ="images/Frame 7.png" class = "testing">
+        <img src ="images/Frame 8.png" class = "testing">
+        <img src ="images/Frame 9.png" class = "testing">
+        <img src ="images/Frame 10.png" class = "testing">
+    </div>
+</div>  
+  
+<div class="wholegroup">
+    <div class="form-group">
+    <img id="track_header" class="header">  
+    <img id="track_bottom" class="bottom">
+    <img id="track_image" class="image1">
+    <img src="images/dylgif2.gif" class="avatar">
+        
+        <div class = "songname">
+            <p id="title">title.mp3</p>
+        </div>
+        <div class = "buttons">
+            <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+            <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+        </div>
+
+               <!--- song duration part --->
+        <div class="duration">
+            <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+        </div>
+
+    </div>
+</form>
+</div>
+
+  <!--- Add javascript file --->
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="responses.js"></script>
+<script src="chat.js"></script>
+</body>
+
+</html>

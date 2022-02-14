@@ -1,0 +1,25 @@
+function getBotResponse(input) {
+
+  // Simple responses
+  if (input == "Why am I the best bf?") {
+      return "Dyban you are the best, and only bf I’ll ever have <3 you know, the concept of even getting intimate and emotionally close to someone has always scared me and I really suck at it but with you, I feel like I can be vulnerable and myself around you x) I’m so happy that you’re the first person I ever poured my love and heart into &#9829 ! You’ve given me so much love and support and you make me feel so happy and secure around you! You always treat me with so much care and sweetness so that I feel special and loved! I really appreciate that you put me to sleep almost every night with your warm sexy soothing voice hehe and you always reassure me and tell me why you love me >< I know occasionally I become moody and cold, but whenever I’m like that, you always know what to say and want to make sure I’m okay :( You have such a big heart filled with so much love and I think you really shared that with me and filled my heart with love too <3 Your joy is really contagious not only to me, but everyone around you<3 You’re the best dummy and bf in the world:)";
+  } 
+  else if (input == "What makes me soo amazing?") {
+      return "You’re so talented and amazing Dylan<3 I think you’re so creative and passionate about the things you love and I think it’s so endearing when you nerd out about topics you love! And I’ll always be there to listen to you hehe! Also you’re a music making godddd &#129327 ?? I love that music making is something that lights you up inside and fills you with so much excitement and creativity &#128161 You always enjoy talking and sharing your music to your friends and I think that trait itself, being able to share your work, being open to people's opinions and perspectives is actually an amazing trait that can set you up to even greater things in the future :) I know my insecure self struggles with that so I do find that really admirable of you hehe! You’re also my cute lil smort bean &#129504 Look at you passing your courses with flying colours and doing so amazing in school! But you know, even with school and university and classes, you don’t let your schoolwork consume me, and you’re always able to be the fun Dyban who makes people enjoy being around you! &#9829 ";
+  }
+
+  else if (input == "What’s your favourite memory of us?") {
+      return "Tbh i have so many amazing memories with you that I can’t even think of one tbh… but I think probably one of the first times we had a date together on video call hehe x) it was like a big breakthrough cause i was always too scared to video call hehe>.< hhhh lowkey i forgot what happened that night but I definitely felt so happy with you and I think we also got to talk a lot <3 I think some of our earlier days were also some of my favourite memories when I think about it now! The feeling of elation and excitement, not knowing where our friendship would progress or end up, was kinda exciting and fun! The simple days where we called and played league together are always memories I will forever cherish hehe &#128158";
+  }
+  else if (input == "What do you look forward to in the future?") {
+      return "I’m super excited to one day be able to live together with you but ofc i demand two bedroom apartment because you snore hmph>:( but one day in a few years where you’re still in school and i’m probably working but i want to be able to live tgt with you where we both come home from work/school and we can just cuddle and warm up in our pjs on our bed and then we can make dinner tgt or if you have school work to do then i’ll cook dinner for us<3 if we’re feeling spontaneous we can go on a quick boba, grocery, or ice cream drive and just admire the night life:) and then during the evening we can play a lil bit of games and then cuddle and sweepy time<3 just simple lil everyday moments with you really excite me hehe!";
+  }
+
+  else if (input == "When did you start falling in love with me?") {
+      return "TBH i have no idea when I started falling in love with you:o Love is defined differently for everyone but I think for me, I really started to fall in love with you when I was able to be completely comfortable and reassured around your presence. I think in the beginning of relationships, people get these feelings of euphoria that makes you feel like you’re high on drugs, kind of like you’re being washed away in the heat of the moment where butterflies are taking over inside of you and BOOM POW! but at the same time you’re walking on eggshells where your relationship could easily crumble and fall apart at the same time but after getting through that stage, those feelings eventually pass and you start to grow more comfortable with your partner! I can definitely say that I truly began to love you when it got to the point where being with you was the same as being by myself and where you became an integral part of my everyday life :)";
+  }
+
+  else {
+      return "Dummy ask one of the questions I listed above &#128065 &#128139 &#128065";
+  }
+}
